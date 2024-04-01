@@ -1,0 +1,100 @@
+/* Common styles for both pages */
+.container {
+  height: auto; /* Set height to auto to expand with content */
+  min-height: 400px; /* Set a minimum height */
+  background-color: #2a584c;
+  padding: 40px; /* Increase padding */
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.form-group {
+  margin: 0 auto;
+  width: 500px;
+  color: white;
+}
+
+label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  margin-top: 30px;
+  margin-left: 305px;
+  width: 500px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+.navbar {
+  height: 100px; /* Adjust height as needed */
+  border-bottom-left-radius: 20px; /* Round bottom-left corner */
+  border-bottom-right-radius: 20px; /* Round bottom-right corner */
+}
+
+/* Styles specific to the sign-in page */
+.signin-container {
+  background-color: #2a584c;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.signin-form-group {
+  margin: 0 auto;
+  width: 500px;
+  color: white;
+}
+
+.signin-label {
+  font-weight: bold;
+  color: white;
+}
+
+.signin-button {
+  margin-top: 30px;
+  margin-left: 305px;
+  width: 500px;
+}
+
+.signin-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.signin-link:hover {
+  color: darkblue;
+}
+
+.registration {
+  font-size:25px ;
+  color: red;
+}
